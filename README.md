@@ -1,4 +1,4 @@
-# Classificação da Qualidade de Vinhos Tintos com K-Nearest Neighbors (k-NN)
+﻿# Classificação da Qualidade de Vinhos Tintos com K-Nearest Neighbors (k-NN)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-KNeighborsClassifier-F7931E?logo=scikitlearn&logoColor=white)
@@ -30,7 +30,7 @@ O estudo realiza a Análise Exploratória dos Dados (EDA), o pré-processamento 
 
 ## 1. Visão Geral e Fluxo Metodológico
 
-O pipeline implementado no notebook [`Aula_02_KNN_grupo_04.ipynb`](./Aula_02_KNN_grupo_04.ipynb) percorre todas as etapas de um experimento clássico de classificação supervisionada multiclasse:
+O pipeline implementado no notebook [`Aula_02_KNN_Wine_Quality.ipynb`](./Aula_02_KNN_Wine_Quality.ipynb) percorre todas as etapas de um experimento clássico de classificação supervisionada multiclasse:
 
 ```mermaid
 flowchart LR
@@ -187,7 +187,7 @@ Para investigar o equilíbrio entre acurácia pontual, suavização da fronteira
 │   ├── metodo_cotovelo_erro_k.png
 │   ├── painel_comparativo_knn.png
 │   └── score_acuracia_k.png
-├── Aula_02_KNN_grupo_04.ipynb               # Notebook principal com código, EDA, modelagem e conclusões
+├── Aula_02_KNN_Wine_Quality.ipynb               # Notebook principal com código, EDA, modelagem e conclusões
 ├── .gitignore                               # Exclusão de ambientes virtuais, caches e credenciais
 ├── requirements.txt                         # Dependências Python necessárias para reprodução
 └── README.md                                # Documentação detalhada e visual do projeto
@@ -218,7 +218,7 @@ Recomendado: **Python 3.10** ou superior.
    ```
 4. Inicie o Jupyter Notebook e execute as células em ordem:
    ```bash
-   jupyter notebook Aula_02_KNN_grupo_04.ipynb
+   jupyter notebook Aula_02_KNN_Wine_Quality.ipynb
    ```
    > **Nota:** O dataset é carregado diretamente via HTTPS a partir do repositório oficial da UCI (`archive.ics.uci.edu`), não sendo necessário baixar arquivos CSV manualmente.
 
